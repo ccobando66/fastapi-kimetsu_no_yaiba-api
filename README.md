@@ -275,7 +275,7 @@ dir fastapi-kimetsu_no_yaiba-api --&gt; windows
 <p class="has-line-data" data-line-start="136" data-line-end="137">Crear entono virtual venv…</p>
 <pre><code class="has-line-data" data-line-start="139" data-line-end="143" class="language-sh">python3.<span class="hljs-number">10</span> -m venv venv
 <span class="hljs-built_in">source</span> venv/bin/activate --&gt; linux
-env\Scripts\activate.bat --&gt; windows
+venv\Scripts\activate.bat --&gt; windows
 </code></pre>
 <p class="has-line-data" data-line-start="144" data-line-end="145">Instalar dependencias en el entorno virtual…</p>
 <pre><code class="has-line-data" data-line-start="147" data-line-end="149" class="language-sh">pip3.<span class="hljs-number">10</span> install -r requirements.txt
