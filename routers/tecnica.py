@@ -124,7 +124,7 @@ async def create_tecnicas_personajes(
             if get_especie[value][0] != 'Demonio' or get_especie[value][2] == False:
                 raise HTTPException(
                       status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-                      detail=f"Eres {get_especie[value][0]}, estas tecnicas va orientadas a Raza Demoniaca "
+                      detail=f"Eres {get_especie[value][0]}, estas tecnicas va orientadas a la Raza Demoniaca "
                 )
                 
     if tecnica_recived.personaje is not None:
